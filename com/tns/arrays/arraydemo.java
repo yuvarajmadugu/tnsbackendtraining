@@ -8,5 +8,12 @@ public class arraydemo {
         arr[1] = 5;
         arr[2] = 9;
         System.out.println(arr[1]);
+
+
+        //accessing of elements using for each loop:
+        for(int num: arr){
+            System.out.println(num};
+        }
     }
 }
+
