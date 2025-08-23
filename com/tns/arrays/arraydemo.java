@@ -9,12 +9,15 @@ public class arraydemo {
         arr[2] = 9;
         System.out.println(arr[1]);
 
+        //accessing of all elements using for loop:
+        for(int i=0; i< arr.length; i++){
+            System.out.print(arr[i] +" ");
+        }
         //accessing of elements using for each loop:
         for(int num: arr){
             System.out.print(num+" ");
         }
-        
+
+
     }
 }
-
-
