@@ -2,6 +2,7 @@ package com.tns.threads;
 
 public class ThreadMain {
     public static void main(String[] args) {
+        
         UsageThread ob = new UsageThread();
 
         Thread t1 = new Thread(){
@@ -20,3 +21,4 @@ public class ThreadMain {
         t2.start();
     }
 }
+
