@@ -1,6 +1,7 @@
 package com.tns.collections.comparable;
 
-class Student implements Comparable<Student> {
+public class Student implements Comparable<Student> {
+    //can compare myself with another object
     //since compareTo(classname object) is abstract method it must be implemented
     int sid;
     String name;
@@ -15,8 +16,8 @@ class Student implements Comparable<Student> {
 
     // compareTo method (natural ordering by marks)
     @Override
-    public int compareTo(Student s) {
-        return this.marks - s.marks;  // ascending order
+    public int compareTo(Student s1) {
+        return this.marks - s1.marks;  // ascending order
         // return s.marks - this.marks; // descending order
     }
 
