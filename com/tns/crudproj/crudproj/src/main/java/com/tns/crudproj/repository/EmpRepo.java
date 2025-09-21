@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface EmpRepo extends JpaRepository<Emp, Integer> {
-    //to be continued
+    // No need to add code — JpaRepository gives us all CRUD methods
 }
