@@ -17,7 +17,7 @@ public class Placement {
 
     private String college;
 
-    @Column(name = "placement_date") // avoid reserved keyword "date"
+    @Column(name = "placement_date")
     @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate placementDate;
 
